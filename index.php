@@ -119,6 +119,7 @@ $pikachu->usePotion($stackzone1,"bigPotion");
 echo $pikachu->getHp()."<br>";
 $manager->attackOrder();
 $manager->attackOrder();
+echo "lalal"; 
 var_dump($stackzone1->categories["medicines"]);
 
 
